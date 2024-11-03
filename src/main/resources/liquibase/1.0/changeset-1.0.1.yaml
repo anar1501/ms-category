@@ -1,0 +1,524 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert_categories
+      author: anar1501
+      changes:
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Electronics"
+              - column:
+                  name: base_id
+                  value: null
+              - column:
+                  name: picture
+                  value: "electronics.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Mobile Phones"
+              - column:
+                  name: base_id
+                  value: "1"
+              - column:
+                  name: picture
+                  value: "mobile_phones.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Televisions"
+              - column:
+                  name: base_id
+                  value: "1"
+              - column:
+                  name: picture
+                  value: "televisions.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Laptops"
+              - column:
+                  name: base_id
+                  value: "1"
+              - column:
+                  name: picture
+                  value: "laptops.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Cameras"
+              - column:
+                  name: base_id
+                  value: "1"
+              - column:
+                  name: picture
+                  value: "cameras.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Smartphones"
+              - column:
+                  name: base_id
+                  value: "2"
+              - column:
+                  name: picture
+                  value: "smartphones.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Feature Phones"
+              - column:
+                  name: base_id
+                  value: "2"
+              - column:
+                  name: picture
+                  value: "feature_phones.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "LED TVs"
+              - column:
+                  name: base_id
+                  value: "3"
+              - column:
+                  name: picture
+                  value: "led_tvs.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Smart TVs"
+              - column:
+                  name: base_id
+                  value: "3"
+              - column:
+                  name: picture
+                  value: "smart_tvs.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "OLED TVs"
+              - column:
+                  name: base_id
+                  value: "3"
+              - column:
+                  name: picture
+                  value: "oled_tvs.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Gaming Laptops"
+              - column:
+                  name: base_id
+                  value: "4"
+              - column:
+                  name: picture
+                  value: "gaming_laptops.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Ultrabooks"
+              - column:
+                  name: base_id
+                  value: "4"
+              - column:
+                  name: picture
+                  value: "ultrabooks.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Business Laptops"
+              - column:
+                  name: base_id
+                  value: "4"
+              - column:
+                  name: picture
+                  value: "business_laptops.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "DSLR"
+              - column:
+                  name: base_id
+                  value: "5"
+              - column:
+                  name: picture
+                  value: "dslr.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Mirrorless"
+              - column:
+                  name: base_id
+                  value: "5"
+              - column:
+                  name: picture
+                  value: "mirrorless.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Point and Shoot"
+              - column:
+                  name: base_id
+                  value: "5"
+              - column:
+                  name: picture
+                  value: "point_and_shoot.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Home Appliances"
+              - column:
+                  name: base_id
+                  value: null
+              - column:
+                  name: picture
+                  value: "home_appliances.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Refrigerators"
+              - column:
+                  name: base_id
+                  value: "17"
+              - column:
+                  name: picture
+                  value: "refrigerators.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Washing Machines"
+              - column:
+                  name: base_id
+                  value: "17"
+              - column:
+                  name: picture
+                  value: "washing_machines.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Microwaves"
+              - column:
+                  name: base_id
+                  value: "17"
+              - column:
+                  name: picture
+                  value: "microwaves.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Air Conditioners"
+              - column:
+                  name: base_id
+                  value: "17"
+              - column:
+                  name: picture
+                  value: "air_conditioners.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Books"
+              - column:
+                  name: base_id
+                  value: null
+              - column:
+                  name: picture
+                  value: "books.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Fiction"
+              - column:
+                  name: base_id
+                  value: "22"
+              - column:
+                  name: picture
+                  value: "fiction.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Non-Fiction"
+              - column:
+                  name: base_id
+                  value: "22"
+              - column:
+                  name: picture
+                  value: "non_fiction.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Children Books"
+              - column:
+                  name: base_id
+                  value: "22"
+              - column:
+                  name: picture
+                  value: "children_books.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Educational"
+              - column:
+                  name: base_id
+                  value: "22"
+              - column:
+                  name: picture
+                  value: "educational.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Mystery"
+              - column:
+                  name: base_id
+                  value: "23"
+              - column:
+                  name: picture
+                  value: "mystery.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Romance"
+              - column:
+                  name: base_id
+                  value: "23"
+              - column:
+                  name: picture
+                  value: "romance.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Science Fiction"
+              - column:
+                  name: base_id
+                  value: "23"
+              - column:
+                  name: picture
+                  value: "science_fiction.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Fantasy"
+              - column:
+                  name: base_id
+                  value: "23"
+              - column:
+                  name: picture
+                  value: "fantasy.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Biographies"
+              - column:
+                  name: base_id
+                  value: "24"
+              - column:
+                  name: picture
+                  value: "biographies.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Self-Help"
+              - column:
+                  name: base_id
+                  value: "24"
+              - column:
+                  name: picture
+                  value: "self_help.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Health & Wellness"
+              - column:
+                  name: base_id
+                  value: "24"
+              - column:
+                  name: picture
+                  value: "health_wellness.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Business"
+              - column:
+                  name: base_id
+                  value: "24"
+              - column:
+                  name: picture
+                  value: "business.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Picture Books"
+              - column:
+                  name: base_id
+                  value: "25"
+              - column:
+                  name: picture
+                  value: "picture_books.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Young Adult"
+              - column:
+                  name: base_id
+                  value: "25"
+              - column:
+                  name: picture
+                  value: "young_adult.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Early Readers"
+              - column:
+                  name: base_id
+                  value: "25"
+              - column:
+                  name: picture
+                  value: "early_readers.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Textbooks"
+              - column:
+                  name: base_id
+                  value: "26"
+              - column:
+                  name: picture
+                  value: "textbooks.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Reference Books"
+              - column:
+                  name: base_id
+                  value: "26"
+              - column:
+                  name: picture
+                  value: "reference_books.jpg"
+
+        - insert:
+            tableName: categories
+            columns:
+              - column:
+                  name: name
+                  value: "Dictionaries"
+              - column:
+                  name: base_id
+                  value: "26"
+              - column:
+                  name: picture
+                  value: "dictionaries.jpg"

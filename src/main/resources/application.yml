@@ -1,0 +1,54 @@
+spring:
+  application:
+    name: ms-category
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: username
+    password: password
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    open-in-view: false
+  liquibase:
+    enabled: true
+    change-log: classpath:/liquibase/db.changelog-master.yml
+    default-schema: public
+    drop-first: false
+  redis:
+    host: ${SPRING_REDIS_HOST}
+    port: 6379
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+server:
+  port: 8080
+
+resilience4j:
+  retry:
+    instances:
+      redisCacheRetry:
+        max-attempts: 3
+        wait-duration: 2000ms
+  circuitbreaker:
+    instances:
+      redisCacheBreaker:
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 5
+        failureRateThreshold: 50
+        waitDurationInOpenState: 10000ms
+        permittedNumberOfCallsInHalfOpenState: 3
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
